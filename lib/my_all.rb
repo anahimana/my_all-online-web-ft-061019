@@ -6,7 +6,6 @@ def my_all?(collection)
   while i < collection.length
     yield(collection[i])
     i += 1
-    block_return_values
     binding.pry
   end
 end
