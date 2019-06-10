@@ -9,6 +9,7 @@ def my_all?(collection)
     # binding.pry
   end
   if block_return_values.include?(false)
+  else
 end
 
 puts my_all?([1,2,3]) {|i| i < 2}
