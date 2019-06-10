@@ -8,7 +8,7 @@ def my_all?(collection)
     i += 1
     # binding.pry
   end
-  block_return_values
+  if block_return_values.include?(false)
 end
 
 puts my_all?([1,2,3]) {|i| i < 2}
